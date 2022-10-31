@@ -1,4 +1,3 @@
-// C++ program for the above approach
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -91,17 +90,3 @@ public:
 		cout << "Minimum Cost Spanning Tree: " << ans;
 	}
 };
-
-// Driver's code
-int main()
-{
-	/* Let us create following weighted graph
-				10
-			0--------1
-			| \	 |
-			6| 5\ |15
-			|	 \ |
-			2--------3
-				4	 */
-	Graph g(4);
-}
